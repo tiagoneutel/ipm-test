@@ -1,0 +1,60 @@
+/* Filters.css */
+.filters-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Limit the width */
+    margin: 0 auto; /* Center the container */
+    margin-top: -30px;
+}
+
+.filters-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #343a40; /* Dark text color */
+}
+
+.filters-container label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #495057; /* Medium text color */
+}
+
+.filters-container input[type="number"],
+.filters-container select {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 4px;
+    font-size: 16px;
+    color: #495057; /* Medium text color */
+    background-color: #fff; /* White background */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+    transition: border-color 0.3s;
+}
+
+.filters-container input[type="number"]:focus,
+.filters-container select:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none;
+}
+
+.filters-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff; /* White text color */
+    background-color: #007bff; /* Blue background color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filters-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

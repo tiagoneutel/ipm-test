@@ -1,0 +1,85 @@
+/* Remove margin and padding from body */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Make sure the height is 100% */
+}
+
+/* Ensure the map container fills the screen */
+#root, .leaflet-container {
+  height: 100vh; /* 100% of the viewport height */
+  width: 100vw; /* 100% of the viewport width */
+}
+
+/* Make sure the map stays as the background */
+.leaflet-container {
+  z-index: 1; /* Ensure the map stays behind other elements */
+}
+
+/* Style for the buttons */
+.clickable-button {
+  position: absolute; /* Position the button absolutely */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10; /* Ensure the button stays on top of the map */
+}
+
+/* Left button styling */
+.left {
+  top: 20px; /* Distance from the top */
+  left: 20px; /* Distance from the left */
+}
+
+/* Right button styling */
+.right {
+  top: 20px; /* Distance from the top */
+  right: 20px; /* Distance from the right */
+}
+
+/* Optional hover effect for buttons */
+.clickable-button:hover {
+  background-color: rgba(255, 255, 255, 1); /* Fully opaque on hover */
+}
+
+.search-indicator {
+  position: absolute;
+  top: 150px;
+  right: 1100px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.map-header {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  z-index: 900;
+}
+
+.login-register-popup {
+  z-index: 1100;
+}

@@ -1,0 +1,25 @@
+/* LeftSideSearchButton.css */
+.left-side-search-button {
+  position: fixed;
+  top: 95px; /* Adjusted to be below the floating button */
+  left: 20px; /* Same left position as the floating button */
+  width: 65px;
+  height: 65px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #0b7aef;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999; /* Ensure it is below the floating button */
+}
+
+.floating-button-icon {
+  width: 32px;
+  height: 32px;
+  z-index: 999;
+}
+  

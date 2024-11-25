@@ -1,0 +1,240 @@
+{
+  "ii": {
+    "image": "building_ii.png",
+    "numberOfFloors": 2,
+    "floors": [
+      {
+        "floor": 1,
+        "floorImage": "building_ii_floor_1.png",
+        "rooms": [
+          {
+            "name": "127",
+            "size": "75",
+            "description": "This room has chairs",
+            "photos": [
+                "https://images.pexels.com/photos/356065/pexels-photo-356065.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                "https://plus.unsplash.com/premium_photo-1680807869780-e0876a6f3cd5?q=80&w=3871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "https://www.teachhub.com/wp-content/uploads/2020/05/Classroom-Management-for-an-Effective-Learning-Environment-1024x683.jpg",
+                "https://images.pexels.com/photos/2675061/pexels-photo-2675061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            ],
+            "type": ["classroom", "auditorium"],
+            "materials": [
+              {
+                "name": "Chairs",
+                "number": 75,
+                "description": "This room has chairs"
+              },
+              {
+                "name": "Tables",
+                "number": 7,
+                "description": "This room has tables"
+              },
+              {
+                "name": "Projector",
+                "number": 1,
+                "description": "This room has a projector"
+              }
+            ],
+            "qualities": ["Air conditioning", "Natural light"],
+            "reservations": [
+              {
+                "date": "2024-11-19",
+                "time_start": "09:00",
+                "time_end": "11:00",
+                "user": "user1",
+                "description": "This is a test reservation"
+              },
+              {
+                "date": "2024-11-19",
+                "time_start": "14:00",
+                "time_end": "16:00",
+                "user": "admin",
+                "description": "This is a test reservation"
+              },
+              {
+                "date": "2024-11-18",
+                "time_start": "14:00",
+                "time_end": "16:00",
+                "user": "admin",
+                "description": "This is a test reservation"
+              }
+            ]
+          },
+          {
+            "name": "128",
+            "size": "100",
+            "description": "",
+            "type": ["classroom", "auditorium"],
+            "photos": [
+              "https://images.unsplash.com/photo-1611078481295-536d46b3c51d",
+              "https://images.unsplash.com/photo-1519985176271-adb1088fa94c"
+            ],
+            "materials": [
+              {
+                "name": "Chairs",
+                "number": 75,
+                "description": "This room has chairs"
+              },
+              {
+                "name": "Tables",
+                "number": 7,
+                "description": "This room has tables"
+              },
+              {
+                "name": "Web Cam",
+                "number": 2,
+                "description": "This room has web cams"
+              },
+              {
+                "name": "Projector",
+                "number": 1,
+                "description": "This room has a projector"
+              }
+            ],
+            "qualities": ["Air conditioning", "Natural light", "Internet Access"],
+            "reservations": []
+          }
+        ]
+      }
+    ]
+  },
+  "vii": {
+    "image": "building_vii.png",
+    "numberOfFloors": 3,
+    "floors": [
+      {
+        "floor": 0,
+        "floorImage": "building_vii_floor_0.png",
+        "rooms": [
+          {
+            "name": "1C",
+            "size": "120",
+            "description": "",
+            "photos": [
+              "https://images.pexels.com/photos/2675061/pexels-photo-2675061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+              "https://plus.unsplash.com/premium_photo-1680807869780-e0876a6f3cd5?q=80&w=3871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "https://www.teachhub.com/wp-content/uploads/2020/05/Classroom-Management-for-an-Effective-Learning-Environment-1024x683.jpg"
+            ],
+            "type": ["classroom", "auditorium"],
+            "materials": [
+              {
+                "name": "Chairs",
+                "number": 120,
+                "description": "This room has chairs"
+              },
+              {
+                "name": "Tables",
+                "number": 30,
+                "description": "This room has tables"
+              },
+              {
+                "name": "Projector",
+                "number": 1,
+                "description": "This room has a projector"
+              }
+            ],
+            "qualities": ["Air conditioning"],
+            "reservations": []
+          }
+        ]
+      }
+    ]
+  },
+  "departamental": {
+    "image": "building_departamental.png",
+    "numberOfFloors": 1,
+    "floors": [
+      {
+        "floor": 1,
+        "floorImage": "building_departamental_floor_1.png",
+        "rooms": [
+          {
+            "name": "lab 60",
+            "size": "60",
+            "description": "A general laboratory for various experiments.",
+            "photos": [
+              "https://plus.unsplash.com/premium_photo-1680807869780-e0876a6f3cd5?q=80&w=3871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "https://www.teachhub.com/wp-content/uploads/2020/05/Classroom-Management-for-an-Effective-Learning-Environment-1024x683.jpg",
+              "https://images.pexels.com/photos/2675061/pexels-photo-2675061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            ],
+            "type": ["laboratory"],
+            "materials": [
+              {
+                "name": "Workbenches",
+                "number": 5,
+                "description": "This lab has workbenches for experiments."
+              },
+              {
+                "name": "Chairs",
+                "number": 20,
+                "description": "This lab has chairs for seating."
+              },
+              {
+                "name": "Microscope",
+                "number": 10,
+                "description": "This lab has microscopes for observation."
+              }
+            ],
+            "qualities": ["Ventilation system"],
+            "reservations": []
+          },
+          {
+            "name": "lab 40",
+            "size": "40",
+            "description": "A small laboratory for focused experiments.",
+            "photos": [
+              "https://plus.unsplash.com/premium_photo-1680807869780-e0876a6f3cd5?q=80&w=3871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "https://www.teachhub.com/wp-content/uploads/2020/05/Classroom-Management-for-an-Effective-Learning-Environment-1024x683.jpg",
+              "https://images.pexels.com/photos/2675061/pexels-photo-2675061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            ],
+            "type": ["laboratory"],
+            "materials": [
+              {
+                "name": "Workbenches",
+                "number": 3,
+                "description": "This lab has workbenches for experiments."
+              },
+              {
+                "name": "Computers",
+                "number": 5,
+                "description": "This lab has computers for data analysis."
+              }
+            ],
+            "qualities": ["Ventilation system"],
+            "reservations": []
+          },
+          {
+            "name": "lab 33",
+            "size": "33",
+            "description": "A chemistry laboratory equipped with specialized tools.",
+            "photos": [
+              "https://plus.unsplash.com/premium_photo-1680807869780-e0876a6f3cd5?q=80&w=3871&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+              "https://www.teachhub.com/wp-content/uploads/2020/05/Classroom-Management-for-an-Effective-Learning-Environment-1024x683.jpg",
+              "https://images.pexels.com/photos/2675061/pexels-photo-2675061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            ],
+            "type": ["chemistry laboratory"],
+            "materials": [
+              {
+                "name": "Flasks",
+                "number": 50,
+                "description": "This lab has flasks for experiments."
+              },
+              {
+                "name": "pH Meter",
+                "number": 1,
+                "description": "This lab has a pH meter for measuring acidity and alkalinity."
+              },
+              {
+                "name": "Chemicals",
+                "number": "various",
+                "description": "This lab has various chemicals for experiments."
+              }
+            ],
+            "qualities": ["Ventilation system", "Chemical storage"],
+            "reservations": []
+          }
+        ]
+      }
+    ]
+  }
+}

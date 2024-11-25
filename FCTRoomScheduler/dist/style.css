@@ -1,0 +1,53 @@
+body {
+    background: radial-gradient(
+          circle farthest-side at 0% 50%,
+          #1a2a3f 23.5%, /* Neutral dark blue */
+          rgba(10, 80, 150, 0) 0
+        )
+        21px 30px,
+      radial-gradient(
+          circle farthest-side at 0% 50%,
+          #1e3455 24%, /* Slightly lighter neutral blue */
+          rgba(20, 100, 180, 0) 0
+        )
+        19px 30px,
+      linear-gradient(
+          #1a2a3f 14%, /* Neutral dark blue */
+          rgba(20, 100, 180, 0) 0,
+          rgba(20, 100, 180, 0) 85%,
+          #1a2a3f 0
+        )
+        0 0,
+      linear-gradient(
+          150deg,
+          #1a2a3f 24%, /* Neutral dark blue */
+          #1e3455 0, /* Slightly lighter */
+          #1e3455 26%,
+          rgba(20, 100, 180, 0) 0,
+          rgba(20, 100, 180, 0) 74%,
+          #1e3455 0,
+          #1e3455 76%,
+          #1a2a3f 0
+        )
+        0 0,
+      linear-gradient(
+          30deg,
+          #1a2a3f 24%, /* Neutral dark blue */
+          #1e3455 0,
+          #1e3455 26%,
+          rgba(20, 100, 180, 0) 0,
+          rgba(20, 100, 180, 0) 74%,
+          #1e3455 0,
+          #1e3455 76%,
+          #1a2a3f 0
+        )
+        0 0,
+      linear-gradient(90deg, #1e3455 2%, #1a2a3f 0, #1a2a3f 98%, #1e3455 0%)
+        0 0
+        #1a2a3f;
+    background-size: 40px 60px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}

@@ -1,0 +1,42 @@
+/* SlidingTab.css */
+.sliding-tab {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  background-color: #f8f9fa;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.5);
+  transform: translateX(-100%); /* Start hidden on the left */
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.sliding-tab.open {
+  transform: translateX(0); /* Slide in from the left */
+}
+
+.sliding-tab-close-btn {
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 17px;
+  color: red; /* #007bff; */
+  text-decoration: underline;
+  transition: color 0.3s ease-in-out;
+}
+
+.sliding-tab-close-btn:hover {
+  color: #0056b3; /* Darker blue for hover effect */
+}
+
+.sliding-tab-close-btn:focus {
+  outline: none;
+  color: #0056b3; /* Darker blue for focus effect */
+}
+
+.sliding-tab-close-btn:active {
+  color: #003f7f; /* Even darker blue for active effect */
+}

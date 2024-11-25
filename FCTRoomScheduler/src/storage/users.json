@@ -1,0 +1,13 @@
+{
+    "users" : [
+        {
+            "id": 1,
+            "username": "admin",
+            "name": "John Doe",
+            "email": "",
+            "password": "password",
+            "role": "admin",
+            "token" : "1234567890"
+        }
+    ]
+}

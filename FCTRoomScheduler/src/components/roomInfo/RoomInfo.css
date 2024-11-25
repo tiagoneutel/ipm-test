@@ -1,0 +1,301 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.rooms-list {
+    padding: 20px;
+    max-width: 87%;
+    max-height: 87%;
+}
+
+.back-button {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.back-button>svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+}
+
+.back-button:hover>svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+}
+
+.back-button:hover {
+    background-color: #5a6268;
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.buttons {
+    flex: 0 0 auto;
+    margin-right: 0px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: rgb(56, 92, 154);
+    border: 1px solid rgb(56, 92, 154);
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 20%;
+    color: white;
+}
+
+.buttons:hover {
+    background-color: white;
+    color: black;
+}
+
+.buttons.selected {
+    background-color: rgb(101, 135, 192);
+    color: white;
+    border: 1px solid white;
+}
+
+.buttons.selected:hover {
+    background-color: #a2a1a1;
+    color: black;
+}
+
+.room-info-card {
+    display: flex;
+    justify-content: center;
+    left: 75px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 21px;
+}
+
+.room-info-card table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.room-info-card table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.room-info-card img {
+    border-radius: 8px;
+}
+
+.reserve-button {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.reserve-button:hover {
+    background-color: #0056b3;
+}
+
+h1 {
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="time"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+/* RoomInfo.css */
+
+.reservations-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.calendar-container {
+    flex: 1;
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.details-container {
+    flex: 1;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.details-container h2 {
+    margin-bottom: 20px;
+}
+
+.details-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.details-container th, .details-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.details-container th {
+    background: #f0f0f0;
+}
+
+.details-container tr:hover {
+    background: #f9f9f9;
+}
+
+
+/* RoomInfo.css */
+
+.book-slot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.book-slot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.book-slot-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.book-slot-row label {
+    flex: 1;
+    text-align: left;
+}
+
+.book-slot-row span,
+.book-slot-row input {
+    flex: 1;
+    text-align: right;
+}
+
+.book-button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.book-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.book-button:hover {
+    background-color: #0056b3;
+}

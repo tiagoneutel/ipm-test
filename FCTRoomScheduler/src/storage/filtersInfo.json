@@ -1,0 +1,44 @@
+{
+    "materials" : [
+        "Chairs",
+        "Tables",
+        "Projector",
+        "Whiteboard",
+        "Computers",
+        "Microphones",
+        "Speakers",
+        "Workbenches",
+        "Tools",
+        "Stage",
+        "Television",
+        "Chemicals",
+        "Safety Equipment",
+        "Flasks",
+        "pH meter",
+        "Webcam"
+    ],
+    "roomType" : [
+        "Classroom",
+        "Laboratory",
+        "Conference Room",
+        "Auditorium",
+        "Meeting Room",
+        "Office",
+        "Library",
+        "Computer Lab",
+        "Workshop",
+        "Studio",
+        "Storage Room",
+        "Restroom"
+    ],
+    "qualities" : [
+        "Air Conditioning",
+        "Natural Light",
+        "Soundproof walls",
+        "Internet Access",
+        "Heating",
+        "Wheelchair Accessible",
+        "Audio System",
+        "Ventilation"
+    ]
+}

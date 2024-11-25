@@ -1,0 +1,18 @@
+/* CustomDropdown.css */
+.custom-dropdown {
+    max-height: 200px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 10px; /* Add padding */
+    background-color: #fff; /* Set background color */
+}
+
+.custom-dropdown label {
+    display: block; /* Ensure each label is on a new line */
+    margin-bottom: 5px; /* Add space between labels */
+}
+
+.custom-dropdown input[type="checkbox"] {
+    margin-right: 10px; /* Add space between checkbox and label text */
+}
